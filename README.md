@@ -64,4 +64,5 @@ if pErr, ok := err.(*safegroup.PanicError); ok {
 
 ## License
 
-MIT
+MIT License.
+Parts of the test code are adapted from the Go project (BSD license).

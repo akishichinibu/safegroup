@@ -2,6 +2,10 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+// This file is derived from Go's standard library tests for errgroup.
+// Modifications: adapted for safegroup.
+// ref: https://cs.opensource.google/go/x/sync/+/refs/tags/v0.13.0:errgroup/errgroup_example_md5all_test.go
+
 package safegroup_test
 
 import (
